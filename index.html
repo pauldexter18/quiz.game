@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row-score">
+            <h1>Score: <span class="span-score"></span></h1>
+        </div>
+
+        <div class="row-question">
+            <h1>Welcome</h1>
+        </div>
+        <div class="row-choices">
+            <section class="column-1">
+                <button class="btn row-btn1">One</button>
+                <button class="btn row-btn2">two</button>
+            </section>
+
+            <section class="column-1">
+                <button class="btn row-btn3">three</button>
+                <button class="btn row-btn4">Four</button>
+            </section>
+        </div>
+        <div class="row-animation-answer">
+        </div>
+        <h1 class="row-message"></h1>
+        <button class="column-btn next-question">Next</button>
+    </div>
+    <div class="row-start">
+        <button class="click-start">Start</button>
+    </div>
+
+    <div class="row-popup-score">
+    </div>
+
+
+    <script src="question.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
